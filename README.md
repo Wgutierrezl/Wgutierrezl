@@ -9,7 +9,7 @@ Desarrollador apasionado por crear soluciones escalables y eficientes, con un fu
 ## 🚀 Sobre mí
 
 - 🔭 Actualmente desarrollando proyectos con microservicios, APIs robustas y arquitecturas cloud-native en AWS
-- 🌱 Explorando Docker, CI/CD con GitHub Actions y Jenkins, y servicios avanzados de AWS
+- 🌱 Explorando Docker, CI/CD con GitHub Actions y Jenkins, Terraform (IaC) y servicios avanzados de AWS
 - 💡 Especializado en backend con ASP.NET Core, FastAPI y Node.js
 - 🎯 Apasionado por aprender nuevos conceptos y adaptarme a diferentes tecnologías
 - 🔄 Siempre buscando nuevos retos que me permitan crecer como desarrollador
@@ -54,6 +54,7 @@ Desarrollador apasionado por crear soluciones escalables y eficientes, con un fu
 ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 
 ### Bases de Datos
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
@@ -80,28 +81,28 @@ Desarrollador apasionado por crear soluciones escalables y eficientes, con un fu
 ## 🎯 Proyectos Destacados
 
 ### 🔐 [Facial Recognition System](https://github.com/Wgutierrezl/facial_recognition_py)
-Sistema de reconocimiento facial utilizando FastAPI, Amazon Rekognition y React Native. Implementación de autenticación biométrica con AWS y despliegue en ECS.
-- **Tech:** Python, FastAPI, React Native, AWS Rekognition, ECS, RDS
+Sistema de reconocimiento facial utilizando FastAPI y Amazon Rekognition con React Native. Implementación de autenticación biométrica integrando servicios de AWS (en desarrollo).
+- **Tech:** Python, FastAPI, React Native, AWS Rekognition, SQLite
 
-### ✅ [GestTask](https://github.com/Wgutierrezl/GestTask)
-Aplicación de gestión de tareas con arquitectura escalable y buenas prácticas de desarrollo.
-- **Tech:** TypeScript, React, Node.js
+### ✅ [GestTask - Backend](https://github.com/Wgutierrezl/GestTask)
+API RESTful para gestión de tareas con arquitectura escalable desplegada en AWS. Implementa autenticación segura con JWT + Auth0 y CI/CD automatizado con GitHub Actions.
+- **Tech:** Node.js, Express, TypeScript, MongoDB (Atlas), AWS (S3, ECS, ECR, ALB, CloudFront), Docker, JWT, Auth0
+
+### ⚙️ [GestTask - Frontend](https://github.com/Wgutierrezl/GestTask_FR)
+Frontend del sistema de gestión de tareas con interfaz moderna y responsiva. Desplegado en AWS S3 con pipeline CI/CD automatizado mediante Docker y GitHub Actions.
+- **Tech:** React, TypeScript, Docker, GitHub Actions, AWS S3
 
 ### 🛒 [Mini E-commerce](https://github.com/Wgutierrezl/mini-eccomerce-pt)
-Plataforma de e-commerce con sistema de autenticación, carrito de compras y gestión de productos.
-- **Tech:** TypeScript, Express, MongoDB
-
-### ⚙️ [GestTask Frontend](https://github.com/Wgutierrezl/GestTask_FR)
-Frontend del sistema de gestión de tareas con interfaz moderna y responsiva.
-- **Tech:** TypeScript, React
+Plataforma de e-commerce full-stack desarrollada como prueba técnica. Sistema completo con autenticación, carrito de compras y gestión de productos.
+- **Tech:** FastAPI, React, SQLite
 
 ### 🔬 [FastAPI Project](https://github.com/Wgutierrezl/FastApi-Project)
-Proyecto de revisión y mejora de conceptos de FastAPI, explorando las mejores prácticas del framework.
-- **Tech:** Python, FastAPI
+Proyecto de producción con FastAPI implementando autenticación JWT. Infraestructura completamente gestionada con Terraform (IaC) y desplegada en AWS mediante CI/CD con GitHub Actions.
+- **Tech:** Python, FastAPI, JWT, Terraform, AWS (ECS, ECR), GitHub Actions, IaC
 
 ### 🎮 [PruebaMicroServicios](https://github.com/Wgutierrezl/PruebaMicroServicios)
-Implementación práctica de arquitectura de microservicios con .NET y Docker.
-- **Tech:** C#, .NET Core, Docker, Microservicios
+Implementación práctica de arquitectura de microservicios con múltiples tecnologías. Proyecto enfocado en containerización y orquestación (próximamente Kubernetes).
+- **Tech:** ASP.NET Core, Spring Boot, Docker, Docker Compose, ECS, Microservicios
 
 ---
 
@@ -114,6 +115,7 @@ const walter = {
         "Desarrollo de APIs RESTful escalables",
         "Arquitecturas de microservicios",
         "Despliegues en AWS con CI/CD",
+        "Infraestructura como código (Terraform)",
         "Contenedorización con Docker",
         "Bases de datos SQL y NoSQL",
         "Rápida adaptación a nuevas tecnologías"
