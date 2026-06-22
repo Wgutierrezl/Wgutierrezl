@@ -12,6 +12,7 @@ Desarrollador **full stack con foco en backend y DevOps**, enfocado en **constru
 - 🤖 Integro **IA (LLMs: OpenAI, Groq, Ollama)** en productos reales y desarrollo con flujo asistido por **Claude Code**
 - 📐 Trabajo con **Spec-Driven Development (SDD)** para producir código mantenible y bien especificado
 - ⚙️ DevOps: contenerizo y despliego en **AWS** (ECS/ECR/CloudFront) con **CI/CD** (GitHub Actions, Jenkins) e **IaC** (Terraform); sumando **GCP**
+- 🧩 Orquestación de **microservicios políglotas** (.NET + Java) con **Docker** y **Kubernetes**
 - 🔗 Integración de sistemas (ERP **Odoo** vía XML-RPC) y autenticación segura (**JWT, Auth0, OAuth2**)
 
 ---
@@ -57,6 +58,7 @@ Desarrollador **full stack con foco en backend y DevOps**, enfocado en **constru
 ### DevOps & CI/CD
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
@@ -111,6 +113,10 @@ CRM con asistente de IA y canal de WhatsApp. Backend **NestJS con arquitectura h
 Plataforma de **integración con el ERP Odoo vía XML-RPC**. Backend NestJS que sincroniza contactos, ventas, compras, productos y CRM, con sincronización programada y dashboard. Frontend React con TanStack Query.
 - **Tech:** NestJS, TypeScript, TypeORM, SQLite, Odoo XML-RPC, Passport/JWT, React, TanStack Query
 
+### 🧩 [Microservices Orchestration](https://github.com/Wgutierrezl/PruebaMicroServicios)
+Orquestación de **microservicios políglotas** (.NET + Java/Spring Boot) contenerizados con **Docker** y desplegables en **Kubernetes**. Tres servicios independientes (usuarios, solicitudes, comentarios) detrás de un ingress, con autenticación JWT compartida y persistencia en SQL Server.
+- **Tech:** ASP.NET Core, Spring Boot, Docker, Docker Compose, Kubernetes, SQL Server, JWT
+
 ### ✅ [GestTask — Backend](https://github.com/Wgutierrezl/GestTask)
 API RESTful para gestión de tareas (tablero Kanban) con **doble autenticación (JWT + Auth0)** y almacenamiento en S3. Arquitectura **ECS / ECR / CloudFront / ALB sobre AWS** con CI/CD en GitHub Actions.
 - **Tech:** Node.js, Express, TypeScript, MongoDB, AWS (S3, ECS, ECR, ALB, CloudFront), Docker, JWT, Auth0
@@ -139,8 +145,8 @@ const walter = {
         "APIs RESTful escalables",
         "Integración de IA (LLMs) en productos",
         "Integración de sistemas (ERP, OAuth2)",
-        "CI/CD y contenerización con Docker",
-        "Infraestructura como código (Terraform)",
+        "Orquestación de microservicios (Docker, Kubernetes)",
+        "CI/CD e infraestructura como código (Terraform)",
         "Cloud: AWS + GCP"
     ],
     metodologia: "Spec-Driven Development + desarrollo asistido por IA (Claude Code)",
