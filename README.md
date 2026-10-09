@@ -9,11 +9,29 @@ Desarrollador **full stack con foco en backend y DevOps**, enfocado en **constru
 ## 🚀 Sobre mí
 
 - 🔭 Construyo APIs y servicios backend con **NestJS, Node.js y Python**, aplicando arquitectura limpia/hexagonal y patrones de diseño
-- 🤖 Integro **IA (LLMs: OpenAI, Groq, Ollama)** en productos reales y desarrollo con flujo asistido por **Claude Code**
+- 🤖 Integro **IA (LLMs: OpenAI, Anthropic, Google Gemini, xAI, Groq, Ollama)** en productos reales y desarrollo con flujo asistido por **Claude Code**
 - 📐 Trabajo con **Spec-Driven Development (SDD)** para producir código mantenible y bien especificado
 - ⚙️ DevOps: contenerizo y despliego en **AWS** (ECS/ECR/CloudFront) con **CI/CD** (GitHub Actions, Jenkins) e **IaC** (Terraform); sumando **GCP**
 - 🧩 Orquestación de **microservicios políglotas** (.NET + Java) con **Docker** y **Kubernetes**
 - 🔗 Integración de sistemas (ERP **Odoo** vía XML-RPC) y autenticación segura (**JWT, Auth0, OAuth2**)
+
+---
+
+## 💼 Experiencia
+
+**One Million Copy S.A.S.** — Full Stack Developer (Backend & Cloud) · *May 2026 – presente*
+- Capa de orquestación **multi-proveedor de IA** (OpenAI, Anthropic, Google, xAI) con selección de modelo, fallback y control de costo por generación
+- Canal de soporte con **WhatsApp Business API**: bot, escalamiento a agente humano y control de límites de envío
+- Plataforma de **email marketing y transaccional** (Mailjet) con segmentación asistida por IA
+- Rediseño del sistema de permisos a **roles configurables por sección** y reconstrucción del panel financiero
+
+**C-Pocket — Pocki Asistente Virtual** — Full Stack Developer · *Mar 2026 – May 2026*
+- Bots inteligentes con **WhatsApp Business API, OpenAI y Meta Flows**; gestión **multi-tenant** de credenciales de Meta Apps
+- Backend con **NestJS + TypeScript** e integraciones con Google Drive
+
+**Degres SAS** — Full Stack Developer / Analista TI · *Mar 2025 – Feb 2026*
+- APIs REST desde cero con **ASP.NET Core + SQL Server**: inventario TI y portal de empleados (React) en producción
+- Despliegues en **AWS (ECS, ECR, EC2, RDS)** y pipelines **CI/CD con GitHub Actions**
 
 ---
 
@@ -42,6 +60,7 @@ Desarrollador **full stack con foco en backend y DevOps**, enfocado en **constru
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
 
@@ -105,9 +124,21 @@ Desarrollador **full stack con foco en backend y DevOps**, enfocado en **constru
 
 ## 🎯 Proyectos Destacados
 
+### 🛒 [Product Checkout App](https://github.com/Wgutierrezl/product-checkout-app) ⭐
+Checkout **mobile-first** con pagos con tarjeta vía pasarela (sandbox), webhooks e idempotencia. Backend **NestJS con arquitectura hexagonal** y Railway Oriented Programming, **100% de cobertura en backend** (99.6% en frontend), infraestructura **serverless en AWS definida con CDK** y CI/CD con GitHub Actions. **[Demo en vivo](https://d17j4b8e1cjsp0.cloudfront.net)** · Mozilla Observatory **A+**.
+- **Tech:** NestJS, TypeScript, React, Redux Toolkit, DynamoDB, AWS (Lambda, API Gateway, CloudFront, CDK), Jest, GitHub Actions
+
 ### 🤖 [AI CRM Platform](https://github.com/Wgutierrezl/ai-crm-platform)
 CRM con asistente de IA y canal de WhatsApp. Backend **NestJS con arquitectura hexagonal** (dominio / aplicación / infraestructura) e integración **multi-proveedor de LLMs** (OpenAI / Groq). Gestión de productos, pedidos, clientes y conversaciones, con frontend en React.
 - **Tech:** NestJS, TypeScript, TypeORM, MySQL, OpenAI/Groq, WhatsApp Cloud API, Cloudinary, React, Docker
+
+### 📈 [Lead Management AI API](https://github.com/Wgutierrezl/lead-management-ai-api)
+API REST para gestión de leads de embudos de marketing con **resumen por IA multi-proveedor** y fallback, autenticación JWT, webhook público, estadísticas, migraciones y tests e2e. Documentada con Swagger y desplegada en Render + Railway.
+- **Tech:** NestJS, TypeScript, TypeORM, MySQL, OpenAI/Groq, Docker, Jest
+
+### 💬 [WhatsApp AI Assistant](https://github.com/Wgutierrezl/whatsapp-ai-assistant)
+Asistente virtual de WhatsApp que detecta la intención del usuario con un **LLM** y ejecuta **herramientas (tool-calling)** antes de responder por la **Meta Cloud API**.
+- **Tech:** NestJS, TypeScript, WhatsApp Cloud API, LLMs, Docker
 
 ### 🔗 [Odoo Integration Platform](https://github.com/Wgutierrezl/odooIntegration)
 Plataforma de **integración con el ERP Odoo vía XML-RPC**. Backend NestJS que sincroniza contactos, ventas, compras, productos y CRM, con sincronización programada y dashboard. Frontend React con TanStack Query.
